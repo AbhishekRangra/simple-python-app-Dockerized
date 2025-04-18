@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = 'abhishekrangra/pyabhi'
+        DOCKER_HUB_REPO = 'abhishekrangra/pythonapp'
     }
     stages {
         stage('Clone Repository') {
